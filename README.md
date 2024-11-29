@@ -67,3 +67,8 @@ The CommunitySupportSystem class abstracts the logic for managing requests and o
 
 Users interact with the CommunitySupportApp GUI without needing to understand the backend logic.
 
+**SDG 11: SUSTAINABLE CITIES AND COMMUNITIES**
+
+•The Community Support System (CommUnity) aligns with Sustainable Development Goal 11: Sustainable Cities and Communities, which aims to promote inclusivity, resilience, and sustainability. This platform connects individuals and organizations by allowing users to submit and fulfill support requests or offers, helping to bridge gaps in local resources and services. By fostering collaboration and resource-sharing, CommUnity contributes to strengthening community resilience in addressing challenges such as disasters, economic crises, or social inequalities. The app's design prioritizes ease of use and accessibility for marginalized groups, empowering them to participate actively. In this way, the project supports the creation of more inclusive, sustainable, and resilient urban and rural communities.
+
+CommUnity expands support and assistance within local communities, not only strengthening individuals' capacity but also promoting unity and cooperation on a larger scale. By leveraging technology, it helps improve living conditions and address critical needs in communities that may not always be reached by traditional support systems.
