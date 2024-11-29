@@ -24,11 +24,11 @@ CommUnity expands support and assistance within local communities, not only stre
 
 ------------------------------------------
 
-1. Encapsulation
+**1. Encapsulation**
 
 Encapsulation is the bundling of data and methods that operate on that data within a single unit (class) and restricting direct access to some components.
 
-Implementation:
+**Implementation:**
 
 Private fields: In classes like Request, Offer, and SupportItem, attributes such as name, supportType, description, status, and contactNumber are marked as private to prevent unauthorized access.
 
@@ -36,11 +36,11 @@ Getters and setters: Controlled access to these private fields is provided throu
 
 
 
-2. Inheritance
+**2. Inheritance**
 
 Inheritance allows one class (subclass) to acquire the properties and behaviors of another class (superclass), promoting reusability.
 
-Implementation:
+**Implementation:**
 
 The Request and Offer classes inherit from the abstract SupportItem class, which defines common fields (name, supportType, description, contactNumber, status) and methods (getName(), fulfill()).
 
@@ -48,11 +48,11 @@ Specific behaviors such as fulfilling requests or offers are implemented in the 
 
 
 
-3. Polymorphism
+**3. Polymorphism**
 
 Polymorphism enables objects of different classes to be treated as objects of a common superclass, allowing a single interface to represent different underlying forms (method overriding).
 
-Implementation:
+**Implementation:**
 
 The fulfill() method is declared as abstract in the SupportItem class and implemented differently in Request and Offer classes:
 
@@ -66,7 +66,7 @@ This allows a consistent method (fulfill()) to be called on any SupportItem obje
 
 
 
-4. Abstraction
+**4. Abstraction**
 
 Abstraction involves hiding implementation details and exposing only essential features, focusing on what an object does rather than how it does it.
 
@@ -76,7 +76,6 @@ The SupportItem class serves as an abstraction for shared properties and methods
 
 The CommunitySupportSystem class abstracts the logic for managing requests and offers, exposing high-level methods like addRequest(), addOffer(), and resetAll().
 
-Users interact with the CommunitySupportApp GUI without needing to understand the backend logic.
 
 # GETTING STARTED
 
