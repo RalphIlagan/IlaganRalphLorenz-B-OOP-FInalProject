@@ -46,4 +46,20 @@ public abstract class SupportItem {
     public String toString() {
         return name + " (" + supportType + ") - " + status;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSupportType(String supportType) {
+        this.supportType = supportType;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setContactNumber(String contactNumber) {
+        this.contactNumber = contactNumber;
+    }
 }
