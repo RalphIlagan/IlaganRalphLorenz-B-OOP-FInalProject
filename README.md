@@ -93,7 +93,6 @@ Users interact with the CommunitySupportApp GUI without needing to understand th
 1.Create empty text files named requests.txt and offers.txt in the root directory of the program to store data persistently.
 
 **RUNNING THE PROGRAM**
-
 1. Execute the program with:
 
      java CommunitySupportApp
