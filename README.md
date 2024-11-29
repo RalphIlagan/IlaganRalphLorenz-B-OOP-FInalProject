@@ -11,7 +11,18 @@
   • The Community Support System (CommUnity) is designed to connect individuals or organizations in need with those offering assistance, fostering collaboration and community resilience. Its intuitive interface allows users to submit and manage support requests and offers efficiently while maintaining transparency and accountability. The application’s primary purpose is to streamline community-driven efforts to address social challenges, promote inclusivity, and support vulnerable populations.
 
 
-**II. Explanation of how OOP principles were applied
+**SDG 11: SUSTAINABLE CITIES AND COMMUNITIES**
+
+------------------------------------------
+
+•The Community Support System (CommUnity) aligns with Sustainable Development Goal 11: Sustainable Cities and Communities, which aims to promote inclusivity, resilience, and sustainability. This platform connects individuals and organizations by allowing users to submit and fulfill support requests or offers, helping to bridge gaps in local resources and services. By fostering collaboration and resource-sharing, CommUnity contributes to strengthening community resilience in addressing challenges such as disasters, economic crises, or social inequalities. The app's design prioritizes ease of use and accessibility for marginalized groups, empowering them to participate actively. In this way, the project supports the creation of more inclusive, sustainable, and resilient urban and rural communities.
+
+CommUnity expands support and assistance within local communities, not only strengthening individuals' capacity but also promoting unity and cooperation on a larger scale. By leveraging technology, it helps improve living conditions and address critical needs in communities that may not always be reached by traditional support systems.
+
+
+**OOP PRINCIPLES**
+
+------------------------------------------
 
 1. Encapsulation
 
@@ -67,8 +78,30 @@ The CommunitySupportSystem class abstracts the logic for managing requests and o
 
 Users interact with the CommunitySupportApp GUI without needing to understand the backend logic.
 
-**SDG 11: SUSTAINABLE CITIES AND COMMUNITIES**
+# GETTING STARTED
 
-•The Community Support System (CommUnity) aligns with Sustainable Development Goal 11: Sustainable Cities and Communities, which aims to promote inclusivity, resilience, and sustainability. This platform connects individuals and organizations by allowing users to submit and fulfill support requests or offers, helping to bridge gaps in local resources and services. By fostering collaboration and resource-sharing, CommUnity contributes to strengthening community resilience in addressing challenges such as disasters, economic crises, or social inequalities. The app's design prioritizes ease of use and accessibility for marginalized groups, empowering them to participate actively. In this way, the project supports the creation of more inclusive, sustainable, and resilient urban and rural communities.
+**INSTALLATION**
+1 .Ensure you have Java installed (minimum version 😎.
 
-CommUnity expands support and assistance within local communities, not only strengthening individuals' capacity but also promoting unity and cooperation on a larger scale. By leveraging technology, it helps improve living conditions and address critical needs in communities that may not always be reached by traditional support systems.
+2. A text editor or IDE like IntelliJ IDEA or Eclipse is recommended for editing the code.
+
+3. Place the program files (CommunitySupportApp.java, CommunitySupportSystem.java, Offer.java, Request.java, SupportItem.java) in the same directory.
+
+**Setup:**
+
+1.Create empty text files named requests.txt and offers.txt in the root directory of the program to store data persistently.
+
+**RUNNING THE PROGRAM**
+1. Execute the program with:
+
+  java CommunitySupportApp
+
+2. The GUI will open, allowing interaction with the features.
+
+**Error Handling**
+
+TAKE NOTE: If any file-related error occurs (e.g., missing requests.txt or offers.txt), ensure the files are created and accessible.
+
+
+
+
