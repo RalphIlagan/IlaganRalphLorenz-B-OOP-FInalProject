@@ -164,9 +164,9 @@ public class CommunitySupportApp {
         if (selectedRow >= 0) {
             String name = JOptionPane.showInputDialog("Enter your name:");
             String contactNumber = JOptionPane.showInputDialog("Enter your Contact Number:");
-        
-            // Validate if any field is blank
-            if (name.isEmpty() || contactNumber.isEmpty()) {
+    
+            // Check if name or contactNumber is null or empty
+            if (name == null || name.isEmpty() || contactNumber == null || contactNumber.isEmpty()) {
                 JOptionPane.showMessageDialog(null, "Name and Contact Number are required.", "Input Error", JOptionPane.ERROR_MESSAGE);
             } else {
                 system.fulfillRequest(selectedRow, name, contactNumber);
@@ -175,14 +175,15 @@ public class CommunitySupportApp {
         }
     }
     
+    
     private void fulfillOffer() {
         int selectedRow = table.getSelectedRow();
         if (selectedRow >= 0) {
             String name = JOptionPane.showInputDialog("Enter your name:");
             String contactNumber = JOptionPane.showInputDialog("Enter your Contact Number:");
-        
-            // Validate if any field is blank
-            if (name.isEmpty() || contactNumber.isEmpty()) {
+    
+            // Check if name or contactNumber is null or empty
+            if (name == null || name.isEmpty() || contactNumber == null || contactNumber.isEmpty()) {
                 JOptionPane.showMessageDialog(null, "Name and Contact Number are required.", "Input Error", JOptionPane.ERROR_MESSAGE);
             } else {
                 system.fulfillOffer(selectedRow, name, contactNumber);
@@ -191,8 +192,6 @@ public class CommunitySupportApp {
         }
     }
     
-    
-
     private void resetData() {
         system.resetAll();
         viewRequests();
