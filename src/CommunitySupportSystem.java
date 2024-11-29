@@ -147,4 +147,36 @@ public class CommunitySupportSystem {
         saveRequests();
         saveOffers();
     }
+
+    public String getOfferFile() {
+        return offerFile;
+    }
+
+    public void setOfferFile(String offerFile) {
+        this.offerFile = offerFile;
+    }
+
+    public String getRequestFile() {
+        return requestFile;
+    }
+
+    public void setRequestFile(String requestFile) {
+        this.requestFile = requestFile;
+    }
+
+    public List<Offer> getOffers() {
+        return offers;
+    }
+
+    public void setOffers(List<Offer> offers) {
+        this.offers = offers;
+    }
+
+    public List<Request> getRequests() {
+        return requests;
+    }
+
+    public void setRequests(List<Request> requests) {
+        this.requests = requests;
+    }
 }
