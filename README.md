@@ -1,4 +1,4 @@
-<div align="center"> <img src="https://github.com/user-attachments/assets/dc6b5547-8896-4f19-a15a-5260dbf9955d">
+I'm<div align="center"> <img src="https://github.com/user-attachments/assets/dc6b5547-8896-4f19-a15a-5260dbf9955d">
 
   # CommUnity
  **Community Support System**</div>
@@ -81,6 +81,7 @@ Users interact with the CommunitySupportApp GUI without needing to understand th
 # GETTING STARTED
 
 **INSTALLATION**
+
 1 .Ensure you have Java installed (minimum version 😎.
 
 2. A text editor or IDE like IntelliJ IDEA or Eclipse is recommended for editing the code.
@@ -92,6 +93,7 @@ Users interact with the CommunitySupportApp GUI without needing to understand th
 1.Create empty text files named requests.txt and offers.txt in the root directory of the program to store data persistently.
 
 **RUNNING THE PROGRAM**
+
 1. Execute the program with:
 
   java CommunitySupportApp
@@ -100,7 +102,7 @@ Users interact with the CommunitySupportApp GUI without needing to understand th
 
 **Error Handling**
 
-TAKE NOTE: If any file-related error occurs (e.g., missing requests.txt or offers.txt), ensure the files are created and accessible.
+⚠️ TAKE NOTE: If any file-related error occurs (e.g., missing requests.txt or offers.txt), ensure the files are created and accessible.
 
 
 
