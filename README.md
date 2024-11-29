@@ -96,7 +96,7 @@ Users interact with the CommunitySupportApp GUI without needing to understand th
 
 1. Execute the program with:
 
-  java CommunitySupportApp
+     java CommunitySupportApp
 
 2. The GUI will open, allowing interaction with the features.
 
