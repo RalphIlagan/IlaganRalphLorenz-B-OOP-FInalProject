@@ -3,11 +3,10 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
 public class CommunitySupportApp {
-    private CommunitySupportSystem system;
+    private final CommunitySupportSystem system;
     private JTable table;
     private JScrollPane scrollPane;
 
-    private JTextField nameField, supportTypeField, descriptionField, contactNumberField;
     private JButton addRequestButton, addOfferButton, viewRequestsButton, viewOffersButton, fulfillRequestButton,
             fulfillOfferButton, resetButton, exitButton;
 
@@ -74,14 +73,14 @@ public class CommunitySupportApp {
 
         frame.add(panel, BorderLayout.SOUTH);
 
-        addRequestButton.addActionListener(e -> addRequest());
-        addOfferButton.addActionListener(e -> addOffer());
-        viewRequestsButton.addActionListener(e -> viewRequests());
-        viewOffersButton.addActionListener(e -> viewOffers());
-        fulfillRequestButton.addActionListener(e -> fulfillRequest());
-        fulfillOfferButton.addActionListener(e -> fulfillOffer());
-        resetButton.addActionListener(e -> resetData());
-        exitButton.addActionListener(e -> exitApplication());
+        addRequestButton.addActionListener(_ -> addRequest());
+        addOfferButton.addActionListener(_ -> addOffer());
+        viewRequestsButton.addActionListener(_ -> viewRequests());
+        viewOffersButton.addActionListener(_ -> viewOffers());
+        fulfillRequestButton.addActionListener(_ -> fulfillRequest());
+        fulfillOfferButton.addActionListener(_ -> fulfillOffer());
+        resetButton.addActionListener(_ -> resetData());
+        exitButton.addActionListener(_ -> exitApplication());
 
         frame.setVisible(true);
     }
