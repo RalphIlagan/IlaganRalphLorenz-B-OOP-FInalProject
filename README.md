@@ -1,4 +1,4 @@
-I'm<div align="center"> <img src="https://github.com/user-attachments/assets/dc6b5547-8896-4f19-a15a-5260dbf9955d">
+<div align="center"> <img src="https://github.com/user-attachments/assets/dc6b5547-8896-4f19-a15a-5260dbf9955d">
 
   # CommUnity
  **Community Support System**</div>
@@ -50,7 +50,7 @@ Specific behaviors such as fulfilling requests or offers are implemented in the 
 
 3. Polymorphism
 
-Definition: Polymorphism enables objects of different classes to be treated as objects of a common superclass, allowing a single interface to represent different underlying forms (method overriding).
+Polymorphism enables objects of different classes to be treated as objects of a common superclass, allowing a single interface to represent different underlying forms (method overriding).
 
 Implementation:
 
