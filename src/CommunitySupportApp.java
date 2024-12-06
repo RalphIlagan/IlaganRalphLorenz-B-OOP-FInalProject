@@ -15,6 +15,7 @@ public class CommunitySupportApp {
         createAndShowGUI();
     }
 
+    @SuppressWarnings("unused")
     private void createAndShowGUI() {
         JFrame frame = new JFrame("CommUnity");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -73,14 +74,14 @@ public class CommunitySupportApp {
 
         frame.add(panel, BorderLayout.SOUTH);
 
-        addRequestButton.addActionListener(_ -> addRequest());
-        addOfferButton.addActionListener(_ -> addOffer());
-        viewRequestsButton.addActionListener(_ -> viewRequests());
-        viewOffersButton.addActionListener(_ -> viewOffers());
-        fulfillRequestButton.addActionListener(_ -> fulfillRequest());
-        fulfillOfferButton.addActionListener(_ -> fulfillOffer());
-        resetButton.addActionListener(_ -> resetData());
-        exitButton.addActionListener(_ -> exitApplication());
+        addRequestButton.addActionListener(e -> addRequest());
+        addOfferButton.addActionListener(e -> addOffer());
+        viewRequestsButton.addActionListener(e -> viewRequests());
+        viewOffersButton.addActionListener(e -> viewOffers());
+        fulfillRequestButton.addActionListener(e -> fulfillRequest());
+        fulfillOfferButton.addActionListener(e -> fulfillOffer());
+        resetButton.addActionListener(e -> resetData());
+        exitButton.addActionListener(e -> exitApplication());
 
         frame.setVisible(true);
     }
