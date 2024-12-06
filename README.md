@@ -81,7 +81,7 @@ The CommunitySupportSystem class abstracts the logic for managing requests and o
 
 **INSTALLATION**
 
-1 .Ensure you have Java installed (minimum version 😎.
+1 .Ensure you have Java installed (minimum version).
 
 2. A text editor or IDE like IntelliJ IDEA or Eclipse is recommended for editing the code.
 
